@@ -1,0 +1,290 @@
+body {
+    background: none repeat scroll 0 0;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5em;
+    background: grey;
+
+}
+
+.container-fluid {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(128, 143, 209);
+    background: linear-gradient(to left, green, white, orange);
+    padding-bottom: 0;
+}
+
+.inner_main_menu {
+    margin: 0 auto;
+    width: 1170px;
+}
+
+.inner_main_menu ul {
+    margin: 0;
+    padding-top: 160px;
+    list-style: none;
+    text-align: right;
+}
+
+.inner_main_menu ul li {
+    float: none;
+    display: inline-block;
+    position: relative;
+}
+
+.inner_main_menu ul li:nth-child(1) {
+    float: left;
+}
+
+.inner_main_menu ul li:nth-child(2) {
+    float: left;
+}
+
+.inner_main_menu ul li:nth-child(3) {
+    float: left;
+}
+
+.inner_main_menu ul li a {
+    color: rgb(7, 15, 47);
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+}
+
+.inner_main_menu ul li a:hover {
+    color: brown;
+}
+
+.inner_main_menu ul li ul {
+    position: absolute;
+    top: 45 px;
+    padding: 0;
+    left: -9999999px;
+    background-color: rgb(128, 143, 209);
+    z-index: 1;
+}
+
+.inner_main_menu ul li:hover ul {
+    left: 0;
+}
+
+.inner_main_menu ul li ul li {
+    width: 100%;
+    float: left;
+    text-align: left;
+    z-index: 1;
+}
+
+.inner_main_menu ul li ul li a {
+    width: 100%;
+    float: left;
+    text-align: left;
+    z-index: 1;
+}
+
+.inner_main_menu ul li ul li a:hover {
+    background: #ddd;
+    color: crimson;
+}
+
+.inner_main_menu ul li:hover ul li ul {
+    top: 0;
+    left: -999999px;
+}
+
+.inner_main_menu ul li ul li:hover ul {
+    left: 150px;
+}
+
+.inner_main_menu ul li ul li ul {}
+
+.inner_main_menu ul li ul li:hover a {
+    color: crimson;
+}
+
+.inner_main_menu ul li:hover ul li a {
+    color: brown;
+}
+
+.inner_main_menu ul li ul li:hover a {
+    color: crimson;
+    background: #ddd;
+}
+
+.inner_main_menu ul li ul li:hover ul li a {
+    background: rgb(128, 143, 209);
+}
+
+.inner_main_menu ul li ul li ul li a:hover {
+    background: #ddd;
+    color: crimson;
+}
+
+#main_menu {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.logo_area {
+    width: 300px;
+    height: 900px;
+    position: absolute;
+    left: 50%;
+    top: 0px;
+    content: "";
+    margin-left: -150px;
+    text-align: center;
+}
+
+hr.one {
+    height: 6px;
+    border-radius: 0;
+    background: #213906;
+    padding-top: 0;
+    margin-block-start: initial;
+    padding-bottom: 0px;
+    margin-block-end: 0px;
+    margin-bottom: 0px;
+    
+}
+
+.inner_main_menu ul li a ul a {
+    display: block;
+
+
+}
+
+.scrollbar {
+    width: 200px;
+    height: 150px;
+    overflow-y: hidden;
+    overflow-y: scroll;
+    margin: 20px auto;
+    background-color: white;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 1px;
+}
+
+.stats_complex_hi {
+    background: #d43236;
+    height: 95px;
+    color: #fff;
+    border: 5px solid #fff;
+    padding: 5px;
+    text-align: center;
+    font-size: 22px;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background:rgb(128, 143, 209); 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: white; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background:White; 
+}
+
+.card1{
+    border-radius: 18px;
+    box-shadow:5px 5px 15px rgba(0,0,0,0.9);
+    text-align: center;
+   margin: auto;
+    width: auto;
+    height: auto;
+    margin-top: 20px;
+    background:linear-gradient(to left, green, white, orange);
+    margin-bottom: 20px;
+}
+
+.stats_complex_hi {
+    background: #d43236;
+    height: 95px;
+    color: #fff;
+    border: 5px solid #fff;
+    padding: 5px;
+      text-align: center;
+}
+
+.stats_cases_hi {
+    background: #2cbbc0;
+    height: 95px;
+    color: #fff;
+    border: 5px solid #fff;
+    padding: 5px;
+      text-align: center;
+}
+
+.stats_orders_hi {
+    background: #eb9928;
+    height: 95px;
+    color: #fff;
+    border: 5px solid #fff;
+    padding: 5px;
+      text-align: center;
+}
+
+.stats_today_hi {
+    background: #26b573;
+    height: 95px;
+    color: #fff;
+    border: 5px solid #fff;
+    padding: 5px;
+      text-align: center;
+}
+
+.stats_complex {
+    background: #008bbb;
+    height: 95px;
+    color: #fff;
+    border: 5px solid #fff;
+    padding: 5px;
+      text-align: center;
+}
+
+.stats_cases {
+    background: #8dc63f;
+    height: 95px;
+    color: #fff;
+    border: 5px solid #fff;
+    padding: 5px;
+      text-align: center;
+}
+
+.stats_orders {
+    background: #b43e92;
+    height: 95px;
+    color: #fff;
+    border: 5px solid #fff;
+    padding: 5px;
+      text-align: center;
+}
+
+.stats_today {
+    background: #f36f33;
+    height: 95px;
+    color: #fff;
+    border: 5px solid #fff;
+    padding: 5px;
+    text-align: center;
+}
+
+#success_message{ display: none;}
